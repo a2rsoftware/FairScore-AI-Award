@@ -1,3 +1,5 @@
+# This is sample file which is used for text to Video conversion
+
 Here’s a practical rundown of what tends to bite when you take LangChain to production, plus battle-tested mitigations you can drop into your stack (FastAPI/LangGraph/Ollama or cloud LLMs).
 
 
@@ -146,3 +148,4 @@ RAG: Chunk 400–800, MMR, k≤8, citations required; re-index schedule.
 Observability: Structured logs, traces per node, metrics endpoints.
 Security: Tool allowlist, input sanitization, secrets outside prompts.
 Versioning: Pin model+prompt; canary + evals before release.
+
